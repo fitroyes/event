@@ -1,0 +1,54 @@
+[[event]]
+path = "20260428-manifestation-palestine"
+name = "Manifestation en solidarité du peuple palestinien"
+date = 2026-04-28T10:30:00+02:00
+place = { name = "Place Jean-Jaurès", addr = "Place Jean-Jaurès, Troyes" }
+notes = [
+  "Le 30 mars de chaque année est une journée particulière en Palestine et pour tou.te.s les Palestinien.ne.s qu’ils vivent en Palestine, dans les camps de réfugié.e.s ou dans la diaspora dans le monde entier.",
+  "C’est la « journée de la terre » commémorée depuis le 30 mars 1976, jour où la police israélienne a tiré sur des Palestiniens qui manifestaient contre la confiscation de leur terre. Bilan 6 morts, des dizaines de blessés et des centaines de personnes incarcérées.",
+  "Cette journée de mobilisation est le symbole d’un peuple attaché à sa terre.",
+  "Au niveau national un appel à la mobilisation dans les territoires est  impulsé par 90 organisations le 28 mars prochain.",
+  "@Collectif aubois pour la paix",
+  "https://actionpopulaire.fr/groupes/dffe29a7-2fcb-424e-bb3d-b1d2b4623aaf/",
+]
+
+[[event]]
+path = "20260428-journee-securite-sante-travail"
+name = "Journée internationale de la sécurité et de la santé au travail"
+date = 2026-04-28T11:00:00+02:00
+place = { name = "Devant le MEDEF", addr = "Place Casimir Perier, Troyes" }
+notes = [
+  "Il sera suivi par un barbecue fraternel devant le syndicat des cheminots de Troyes (devant la gare).",
+  "https://www.cgtud10.fr/actualites/c/0/i/96079644/28-avril-rassemblement-11h-devant-le-medef-stop-aux-morts-au-travail",
+]
+
+[[event]]
+path = "20260428-presentation-tsedek"
+name = "Présentation du livre TSEDEK!"
+place = { name = "Maison des syndicats", addr = "2A Boulevard du 1er R.A.M, Troyes" }
+date = 2026-04-28T18:30:00+02:00
+notes = [
+  "Fondé quelques mois avant le 7 octobre 2023, le collectif juif décolonial Tsedek! s'est depuis retrouvé propulsé au cœur des enjeux qui animent le débat politique français, dans un contexte marqué par le génocide à Gaza, la radicalisation autoritaire de l'État et une instrumentalisation toujours plus grande de la lutte contre l'antisémitisme à des fins répressives et racistes.",
+  "Dans ce livre, le collectif dresse un premier bilan de deux ans de luttes, et explore les moyens de renouer avec une judéité révolutionnaire et émancipatrice face à la fascisation du monde.",
+  "@Collectif Louise Michelle, Tsedek! et les passeurs de textes",
+]
+
+[[event]]
+path = "20260501-1er-mai"
+name = "Manif 1er mai"
+place = { name = "Place Jean-Jaurès", addr = "Place Jean-Jaurès, Troyes" }
+date = 2026-05-01T10:00:00+02:00
+notes = []
+
+[[event]]
+path = "20260606-pride"
+name = "Pride de Troyes 2026"
+place = { name = "Place de la Libération", addr = "Place de la Préfecture" }
+date = 2026-06-06T14:30:00+02:00
+notes = [
+  "Des animations toute l'après-midi Cortège militant, Performances d'artistes locaux, Discours, Village Associatif, DJ Set, Buvette, Foodtruck",
+  "14:30 Départ",
+  "17:30 Arrivée à Sainte-Savine devant l'Art Déco",
+  "20:00 After Pride avec Gang Bambi dans l'Art Déco",
+  "https://pride2troyes.fr/blog/pride-2026",
+]
