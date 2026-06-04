@@ -43,7 +43,7 @@ notes = []
 [[event]]
 path = "20260606-pride"
 name = "Pride de Troyes 2026"
-place = { name = "Place de la Libération", addr = "Place de la Préfecture" }
+place = { name = "Place de la Libération", addr = "Place de la Préfecture 10000 Troyes" }
 date = 2026-06-06T14:30:00+02:00
 notes = [
   "Des animations toute l'après-midi Cortège militant, Performances d'artistes locaux, Discours, Village Associatif, DJ Set, Buvette, Foodtruck",
@@ -52,3 +52,40 @@ notes = [
   "20:00 After Pride avec Gang Bambi dans l'Art Déco",
   "https://pride2troyes.fr/blog/pride-2026",
 ]
+
+[[event]]
+path = "20260607-printemps-viennes"
+name = "Printemps des Viennes"
+place = { name = "Place Robert Galley", addr = "Place Robert Galley 10000 Troyes" }
+date = 2026-06-07T11:30:00+02:00
+notes = [
+  "Le p'tit concert d'onc'Pascal",
+  "Chansons jeunes public",
+]
+
+[[event]]
+path = "20260620-marche-contre-extreme-droite"
+name = "Un coup KO - Manif contre le racisme"
+place = { name = "?", addr = "Troyes?" }
+date = 2026-06-20T14:00:00+02:00
+notes = [
+  "Le lieu n'est pas encore publié",
+  "Rassemblement/marche contre le racisme (avec le collectif de luttre contre l'ED)",
+  "https://www.humanite.fr/en-debat/antiracisme/le-21-juin-un-coup-ko-contre-le-racisme-toutes-les-discriminations-et-lextreme-droite",
+]
+
+[[event]]
+path = "20260625-conference-fanny-gallot"
+name = "Conférence - Leurs paniques, Nos combats - Par Fanny Gallot"
+place = { name = "Espace Monmousseau", addr = "2 Av. du 8 Mai, 10100 Romilly-sur-Seine" }
+date = 2026-06-25T18:30:00+02:00
+notes = [""]
+
+
+
+# [[event]]
+# path = ""
+# name = ""
+# place = { name = "", addr = "" }
+# date = false
+# notes = [""]

@@ -1,3 +1,5 @@
+#!/usr/bin/env -S deno run --allow-read --allow-write=public main.ts
+
 import _HEAD from "./head.html" with { type: "text" };
 import * as TOML from "@std/toml";
 import * as HTML from "@huguesguilleus/blogger/html";
@@ -130,9 +132,9 @@ function notes(lines: string[] = []): HTML.HTML[] {
 }
 
 function print_event(event: Event): HTML.HTML {
-	return HTML.htmlAttr`a.event href="${
-		event.date.getFullYear() + ""
-	}/${event.path}.html"`(
+	return HTML.htmlAttr`a.event${
+		event.date.valueOf() < Date.now() ? ".old" : ""
+	} href="${event.date.getFullYear() + ""}/${event.path}.html"`(
 		HTML.html("h2", event.name),
 		HTML.html(
 			"div",
