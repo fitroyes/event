@@ -72,7 +72,11 @@ for (const year of [2026]) {
 					HTML.html("header", HTML.html("h1", e.name)),
 					HTML.htmlAttr`a.link href=../index.html `("Accueil"),
 					HTML.htmlAttr`a.link href=../${year + ""}.html `(year + ""),
-					HTML.html("main", print_event(e), HTML.html(".main", notes(e.notes))),
+					HTML.html(
+						"main",
+						print_event(e, false),
+						HTML.html(".main", notes(e.notes)),
+					),
 				),
 			),
 		);
@@ -100,7 +104,7 @@ for (const year of [2026]) {
 				"body",
 				HTML.html("header", HTML.html("h1", "Agenda " + year)),
 				HTML.htmlAttr`a.link href=./index.html `("Accueil"),
-				HTML.html("main", event.map((event) => print_event(event))),
+				HTML.html("main", event.map((event) => print_event(event, true))),
 				ABOUT,
 			),
 		),
@@ -117,7 +121,10 @@ await Deno.writeTextFile(
 			"body",
 			HTML.html("header", HTML.html("h1", "Futurs évènements")),
 			HTML.htmlAttr`a.link href=2026.html`(2026 + ""),
-			HTML.html("main", ...future_events.map((event) => print_event(event))),
+			HTML.html(
+				"main",
+				...future_events.map((event) => print_event(event, true)),
+			),
 			ABOUT,
 		),
 	),
@@ -131,8 +138,8 @@ function notes(lines: string[] = []): HTML.HTML[] {
 	);
 }
 
-function print_event(event: Event): HTML.HTML {
-	return HTML.htmlAttr`a.event${
+function print_event(event: Event, notPage: boolean): HTML.HTML {
+	return HTML.htmlAttr`${notPage ? "a" : "div"}.event${
 		event.date.valueOf() < Date.now() ? ".old" : ""
 	} href="${event.date.getFullYear() + ""}/${event.path}.html"`(
 		HTML.html("h2", event.name),
