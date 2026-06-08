@@ -58,9 +58,23 @@ path = "20260607-printemps-viennes"
 name = "Printemps des Viennes"
 place = { name = "Place Robert Galley", addr = "Place Robert Galley 10000 Troyes" }
 date = 2026-06-07T11:30:00+02:00
+notes = ["Le p'tit concert d'onc'Pascal", "Chansons jeunes public"]
+
+[[event]]
+path = "20260608-enfantiste"
+name = "Rassemblement devant le Tribunal de Troyes @Collectif enfantiste 10"
+place = { name = "Tribunal de Troyes", addr = "83 Rue Général de Gaulle, 10000 Troyes" }
+date = 2026-06-08T19:00:00+02:00
+notes = ["https://www.instagram.com/collectifenfantiste10/p/DZNHRnuMVmJ/"]
+
+[[event]]
+path = "20260609-aesh"
+name = "Ecole inclusive: toutes et tous mobilisé·es!"
+place = { name = "Devant le collège Langevin de Ste Savine", addr = "14 Av. Gabriel Thierry, 10300 Sainte-Savine" }
+date = 2026-06-09T17:00:00+02:00
 notes = [
-  "Le p'tit concert d'onc'Pascal",
-  "Chansons jeunes public",
+  "À la suite du premier groupe de travail sur l’avenir des AESH, une large intersyndicale appelle tous les personnels de l’Éducation nationale à se mobiliser le 9 juin. L’objectif: obtenir la création d’un corps de fonctionnaire pour l’ensemble des AESH, seule condition pour une sortie de la précarité. Pour les associer directement à la définition de leur métier, la FSU-SNUipp lance une consultation nationale.",
+  "https://10.snuipp.fr/article/ecole-inclusive-toutes-et-tous-mobilise-es",
 ]
 
 [[event]]
@@ -80,8 +94,6 @@ name = "Conférence - Leurs paniques, Nos combats - Par Fanny Gallot"
 place = { name = "Espace Monmousseau", addr = "2 Av. du 8 Mai, 10100 Romilly-sur-Seine" }
 date = 2026-06-25T18:30:00+02:00
 notes = [""]
-
-
 
 # [[event]]
 # path = ""

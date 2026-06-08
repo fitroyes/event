@@ -147,7 +147,7 @@ function print_event(event: Event, notPage: boolean): HTML.HTML {
 			"div",
 			Intl.DateTimeFormat("fr", {
 				dateStyle: "full",
-				timeStyle: "medium",
+				timeStyle: "short",
 			}).format(event.date),
 		),
 		HTML.html("div", event.place.name),
