@@ -155,6 +155,7 @@ function print_event(event: Event, notPage: boolean): HTML.HTML {
 			Intl.DateTimeFormat("fr", {
 				dateStyle: "full",
 				timeStyle: "short",
+				timeZone: "Europe/Paris",
 			}).format(event.date),
 		),
 		HTML.html("div", event.place.name),
