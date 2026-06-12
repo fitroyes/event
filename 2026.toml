@@ -92,7 +92,7 @@ notes = [
 path = "20260625-conference-fanny-gallot"
 name = "Conférence - Leurs paniques, Nos combats - Par Fanny Gallot"
 place = { name = "Espace Monmousseau", addr = "2 Av. du 8 Mai, 10100 Romilly-sur-Seine" }
-date = 2026-06-25T18:30:00
+date = 2026-06-25T18:30:00+02:00
 notes = [""]
 
 # [[event]]
