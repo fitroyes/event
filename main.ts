@@ -46,6 +46,7 @@ for (const year of [2026]) {
 				HTML.html(
 					"head",
 					HEAD,
+					HTML.html("link rel=icon href=../favicon.webp"),
 					HTML.html("title", e.name),
 					HTML.html(
 						"script type=application/ld+json",
@@ -97,6 +98,7 @@ for (const year of [2026]) {
 			HTML.html(
 				"head",
 				HEAD,
+				HTML.html("link rel=icon href=favicon.webp"),
 				HTML.html("title", "Agenda " + year),
 				HTML.html("meta name=googlebot content=noindex"),
 			),
@@ -116,7 +118,12 @@ await Deno.writeTextFile(
 	`public/index.html`,
 	HTML.htmlRoot(
 		"html lang=fr",
-		HTML.html("head", HEAD, HTML.html("title", "Futurs évènements")),
+		HTML.html(
+			"head",
+			HEAD,
+			HTML.html("link rel=icon href=favicon.webp"),
+			HTML.html("title", "Futurs évènements"),
+		),
 		HTML.html(
 			"body",
 			HTML.html("header", HTML.html("h1", "Futurs évènements")),
