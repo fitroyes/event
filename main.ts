@@ -13,8 +13,12 @@ const HEAD = {
 };
 
 const ABOUT = HTML.html(
-	"p.about",
-	"Ce site web référence des évènements concernant des luttes progressistes qui se déroulent autour à Troyes.",
+	"footer.about",
+	HTML.html(
+		"div",
+		"Ce site web référence des évènements concernant des luttes progressistes qui se déroulent autour à Troyes.",
+	),
+	HTML.htmlAttr`a href=https://github.com/fitroyes/event/ `("Code source"),
 );
 
 type Event = {
@@ -71,13 +75,14 @@ for (const year of [2026]) {
 				HTML.html(
 					"body",
 					HTML.html("header", HTML.html("h1", e.name)),
-					HTML.htmlAttr`a.link href=../index.html `("Accueil"),
+					HTML.htmlAttr`a.link href=../ `("Accueil"),
 					HTML.htmlAttr`a.link href=../${year + ""}.html `(year + ""),
 					HTML.html(
 						"main",
 						print_event(e, false),
 						HTML.html(".main", notes(e.notes)),
 					),
+					ABOUT,
 				),
 			),
 		);
