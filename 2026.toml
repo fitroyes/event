@@ -78,6 +78,18 @@ notes = [
 ]
 
 [[event]]
+path = "20260615-enfantiste"
+name = "Rassemblement contre les violences faites aux enfants @Collectif enfantiste 10"
+place = { name = "Tribunal de Troyes", addr = "83 Rue Général de Gaulle, 10000 Troyes" }
+date = 2026-06-15T19:00:00+02:00
+notes = [
+  "Nous suivons l'appel national à se rassembler partout pour que la loi Intégrale soit votée, le 15 juin à 19h devant les palais de Justice.",
+  "Les enfants et les adolescents sont les bienvenus, un espace famille est prévu.",
+  "Nous pourrons voir ensemble si nous répétons ce rassemblement !",
+  "https://www.instagram.com/collectifenfantiste10/p/DZiZYG9xBMy/",
+]
+
+[[event]]
 path = "20260620-marche-contre-extreme-droite"
 name = "Un coup KO - Manif contre le racisme"
 place = { name = "?", addr = "Troyes?" }
