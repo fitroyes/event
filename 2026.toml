@@ -101,6 +101,71 @@ notes = [
 ]
 
 [[event]]
+path = "202606-marge-centre-vendredi"
+name = "De la marge au centre (vendredi)"
+place = { name = "Ateliers Ginkgo", addr = "9 rue Jeanne d’arc, 10000 Troyes" }
+date = 2026-06-19T18:00:00+02:00
+notes = [
+  "🌍 De quoi s’agit-il? N’y a t’il pas des expériences, des témoignages, des pensées qui vous mettent en mouvement? Qui vous font changer votre regard sur le monde?",
+  "C'est bien de ça qu’il s’agit!",
+  "«De la marge au centre» en référence bien sûr au livre de l’autrice et militante afro américaine Bell Hooks mais aussi à la célèbre phrase du cinéaste Jean Luc Godard «C’est la marge qui tient la page». Remettons au centre de notre attention, des histoires, des pensées, des singularités invisibilisées, marginalisées par les discours dominant.",
+  "🗓️ Pour cela on vous a prévu tout une programmation: Atelier, projections, disscussions, temps calme, temps festif et en musique avec des concerts, des orchestres, une chorale et bien d’autres surprises! On vous dévoile le programme détaillé dans les jours qui arrivent!",
+  "❤️ Un événement pensé et organisé par un trio de choc @_danceflore_ @mona_leu_leu et @cosmegb à la DA c’est la Queen @nom_d_utilisateur_3000 qui nous régale de ses superbes idées et créations! Et les amies d'@amedutemple @hamid_mandgar @collectifparade @aux_adelphes qui nous accompagnent dans cette folle aventure!",
+  "---",
+  "🗓️ Au programme:",
+  "VEN. 19/06 [18h-22h]",
+  "🥁🎺🎸19h-22h: Jam session, en partenariat avec le @amedutemple!",
+  "---",
+  "📍Où: 9 rue Jeanne d'arc à Troyes, au niveau des ateliers Ginkgo juste derrière le centre d'art contemporain Passages. Entrée libre.",
+]
+
+[[event]]
+path = "202606-marge-centre-samedi"
+name = "De la marge au centre (samedi)"
+place = { name = "Ateliers Ginkgo", addr = "9 rue Jeanne d’arc, 10000 Troyes" }
+date = 2026-06-20T10:00:00+02:00
+notes = [
+  "🌍 De quoi s’agit-il? N’y a t’il pas des expériences, des témoignages, des pensées qui vous mettent en mouvement? Qui vous font changer votre regard sur le monde?",
+  "C'est bien de ça qu’il s’agit!",
+  "«De la marge au centre» en référence bien sûr au livre de l’autrice et militante afro américaine Bell Hooks mais aussi à la célèbre phrase du cinéaste Jean Luc Godard «C’est la marge qui tient la page». Remettons au centre de notre attention, des histoires, des pensées, des singularités invisibilisées, marginalisées par les discours dominant.",
+  "🗓️ Pour cela on vous a prévu tout une programmation: Atelier, projections, disscussions, temps calme, temps festif et en musique avec des concerts, des orchestres, une chorale et bien d’autres surprises! On vous dévoile le programme détaillé dans les jours qui arrivent!",
+  "❤️ Un événement pensé et organisé par un trio de choc @_danceflore_ @mona_leu_leu et @cosmegb à la DA c’est la Queen @nom_d_utilisateur_3000 qui nous régale de ses superbes idées et créations! Et les amies d'@amedutemple @hamid_mandgar @collectifparade @aux_adelphes qui nous accompagnent dans cette folle aventure!",
+  "---",
+  "🗓️ Au programme : ",
+  "SAM. 20/06 [10h-19h]",
+  "🪁 10h-12h : Atelier Cerf-volant, avec le @collectifparade - Atelier créatif",
+  "🥪 12h-14h : Pique-nique partagé",
+  "🎬 14h-15h30 : Penser depuis les marges - Discussion, projections (en présence d'@hamid_mandgar)",
+  "✊ 16h-17h30 : Atelier Bonnetières en grève - Discussion",
+  "💬18h-19h : Mise en commun - Discussion",
+  "---",
+  "📍Où: 9 rue Jeanne d'arc à Troyes, au niveau des ateliers Ginkgo juste derrière le centre d'art contemporain Passages. Entrée libre.",
+]
+
+[[event]]
+path = "202606-marge-centre-dimanche"
+name = "De la marge au centre (dimanche)"
+place = { name = "Ateliers Ginkgo", addr = "9 rue Jeanne d’arc, 10000 Troyes" }
+date = 2026-06-21T10:00:00+02:00
+notes = [
+  "🌍 De quoi s’agit-il? N’y a t’il pas des expériences, des témoignages, des pensées qui vous mettent en mouvement? Qui vous font changer votre regard sur le monde?",
+  "C'est bien de ça qu’il s’agit!",
+  "«De la marge au centre» en référence bien sûr au livre de l’autrice et militante afro américaine Bell Hooks mais aussi à la célèbre phrase du cinéaste Jean Luc Godard «C’est la marge qui tient la page». Remettons au centre de notre attention, des histoires, des pensées, des singularités invisibilisées, marginalisées par les discours dominant.",
+  "🗓️ Pour cela on vous a prévu tout une programmation: Atelier, projections, disscussions, temps calme, temps festif et en musique avec des concerts, des orchestres, une chorale et bien d’autres surprises! On vous dévoile le programme détaillé dans les jours qui arrivent!",
+  "❤️ Un événement pensé et organisé par un trio de choc @_danceflore_ @mona_leu_leu et @cosmegb à la DA c’est la Queen @nom_d_utilisateur_3000 qui nous régale de ses superbes idées et créations! Et les amies d'@amedutemple @hamid_mandgar @collectifparade @aux_adelphes qui nous accompagnent dans cette folle aventure!",
+  "---",
+  "🗓️ Au programme : ",
+  "DIM. 21/06 [10h-00h]",
+  "🎬 10h-12h : En Fanfare - Projection privée + Concert",
+  "🥪 12h-14h : Pique-nique partagé",
+  "🎤 14h-15h : Chorale féministe - Venez chanter avec la chorale des @aux_adelphes!",
+  "📣 15h-18h : Temps collectif libre - Prise de parole libre",
+  "🎼 18h-00h : Fête de la musique - Discussions, concerts, jam",
+  "---",
+  "📍Où: 9 rue Jeanne d'arc à Troyes, au niveau des ateliers Ginkgo juste derrière le centre d'art contemporain Passages. Entrée libre.",
+]
+
+[[event]]
 path = "20260625-conference-fanny-gallot"
 name = "Conférence - Leurs paniques, Nos combats - Par Fanny Gallot"
 place = { name = "Espace Monmousseau", addr = "2 Av. du 8 Mai, 10100 Romilly-sur-Seine" }
