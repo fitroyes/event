@@ -91,13 +91,13 @@ notes = [
 
 [[event]]
 path = "20260620-marche-contre-extreme-droite"
-name = "Un coup KO - Manif contre le racisme"
-place = { name = "?", addr = "Troyes?" }
+name = "Un coup KO - Rassemblement Contre le racisme, les discriminations et l'extrême droite"
+place = { name = "Devant l'hôtel de ville", addr = "Place Alexandre Israël, 10000 Troyes" }
 date = 2026-06-20T14:00:00+02:00
 notes = [
-  "Le lieu n'est pas encore publié",
-  "Rassemblement/marche contre le racisme (avec le collectif de luttre contre l'ED)",
+  "Relai de l'appel à Paris le 21 juin",
   "https://www.humanite.fr/en-debat/antiracisme/le-21-juin-un-coup-ko-contre-le-racisme-toutes-les-discriminations-et-lextreme-droite",
+  "@Collectifs aubois de lutte contre les extrêmes droites",
 ]
 
 [[event]]
