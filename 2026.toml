@@ -166,6 +166,30 @@ notes = [
 ]
 
 [[event]]
+path = "20260703-manifestation-palestine"
+name = "Manifestation en solidarité du peuple palestinien"
+date = 2026-07-04T10:30:00+02:00
+place = { name = "Place Jean-Jaurès", addr = "Place Jean-Jaurès, Troyes" }
+notes = [
+  "Manifestation suivi d'échange, de prise de parole, autour d'un pique-nique partagé",
+  "@Collectif aubois pour la paix",
+  "https://www.facebook.com/mraptroyes/",
+]
+
+[[event]]
+path = "20260706-enfantiste"
+name = "Rassemblement contre les violences faites aux enfants @Collectif enfantiste 10"
+place = { name = "Tribunal de Troyes", addr = "83 Rue Général de Gaulle, 10000 Troyes" }
+date = 2026-07-06T19:00:00+02:00
+notes = [
+  "Notre prochain et dernier rendez-vous estival aura lieu lundi prochain 6 juillet à 19h.",
+  "Une occasion renouvelée pour continuer d'exposer nos revendications, de soutenir le combat enfantiste et de vous rallier à cette lutte ô combien primordiale.",
+  "Nous devons commencer à mieux nous structurer au sein même du collectif, discuter de certain points et nous mettre d'accord. Nous souhaitons faire moins au jour le jour et moins dans l'urgence et c'est aussi pourquoi nous avons décidé de ne pas organiser de marche le 4 juillet, mettant ainsi notre énergie dans ce dernier lundi pour le moment et dans la réflexion pour établir une ligne commune pour être efficaces.",
+  "Aussi, nous profiterons de l'été pour mieux revenir pour une mobilisation le 7 septembre dont nous vous parlerons très vite !",
+  "https://www.instagram.com/collectifenfantiste10/p/DaP3SVXMwwL/",
+]
+
+[[event]]
 path = "20260625-conference-fanny-gallot"
 name = "[REPORTÉ EN SEPTEMBRE] Conférence - Leurs paniques, Nos combats - Par Fanny Gallot"
 place = { name = "Espace Monmousseau", addr = "2 Av. du 8 Mai, 10100 Romilly-sur-Seine" }
