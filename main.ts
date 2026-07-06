@@ -2,7 +2,7 @@
 
 import _HEAD from "./head.html" with { type: "text" };
 import * as TOML from "@std/toml";
-import * as HTML from "@huguesguilleus/blogger/html";
+import * as HTML from "@huguesguilleus/html";
 
 const HEAD = {
 	h: _HEAD
