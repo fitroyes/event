@@ -142,6 +142,8 @@ await Deno.writeTextFile(
 	),
 );
 
+await Deno.copyFile("404.html", "public/404.html");
+
 function notes(lines: string[] = []): HTML.HTML[] {
 	return lines.map((line) =>
 		/^https?:\/\//.test(line)

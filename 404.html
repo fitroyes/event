@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang=fr>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name=viewport content="width=device-width, initial-scale=1.0">
+	<link rel=icon href=/favicon.webp type=image/webp>
+	<style>
+		body {
+			font-size: xx-large;
+			font-family: monospace;
+			padding: 5ex;
+		}
+
+		h1 {
+			background: black;
+			color: #f9c900;
+			padding: 1ex;
+			display: table;
+		}
+
+		A,
+		a {
+			color: #3885f4;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>404 Page non trouvée</h1>
+	<div id=A></div>
+
+	<script>
+		const h = document.createElement("a")
+		h.innerText = location.host;
+		h.href = "/";
+		A.append(h);
+
+		location.pathname.substr(1).split("/").reduce((acc, p) => {
+			const a = document.createElement("a");
+			a.href = acc += "/" + p;
+			a.innerText = p;
+			A.append(" / ", a);
+			return acc;
+		}, "")
+	</script>
