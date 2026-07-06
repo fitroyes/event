@@ -156,7 +156,7 @@ function print_event(event: Event, notPage: boolean): HTML.HTML {
 	return HTML.htmlAttr`${notPage ? "a" : "div"}.event${
 		event.date.valueOf() < Date.now() ? ".old" : ""
 	} href="${event.date.getFullYear() + ""}/${event.path}.html"`(
-		HTML.html("h2", event.name),
+		notPage && HTML.html("h2", event.name),
 		HTML.html(
 			"div",
 			Intl.DateTimeFormat("fr", {
