@@ -1,6 +1,7 @@
 {
 	"imports": {
 		"@huguesguilleus/html": "jsr:@huguesguilleus/html@^1.1.1",
+		"@std/fs": "jsr:@std/fs@^1.0.24",
 		"@std/toml": "jsr:@std/toml@^1.0.11"
 	},
 	"fmt": {

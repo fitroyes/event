@@ -1,5 +1,5 @@
 [[event]]
-path = "20260428-manifestation-palestine"
+path = "manifestation-palestine"
 name = "Manifestation en solidarité du peuple palestinien"
 date = 2026-04-28T10:30:00+02:00
 place = { name = "Place Jean-Jaurès", addr = "Place Jean-Jaurès, Troyes" }
@@ -13,7 +13,7 @@ notes = [
 ]
 
 [[event]]
-path = "20260428-journee-securite-sante-travail"
+path = "journee-securite-sante-travail"
 name = "Journée internationale de la sécurité et de la santé au travail"
 date = 2026-04-28T11:00:00+02:00
 place = { name = "Devant le MEDEF", addr = "Place Casimir Perier, Troyes" }
@@ -23,7 +23,7 @@ notes = [
 ]
 
 [[event]]
-path = "20260428-presentation-tsedek"
+path = "presentation-tsedek"
 name = "Présentation du livre TSEDEK!"
 place = { name = "Maison des syndicats", addr = "2A Boulevard du 1er R.A.M, Troyes" }
 date = 2026-04-28T18:30:00+02:00
@@ -34,14 +34,14 @@ notes = [
 ]
 
 [[event]]
-path = "20260501-1er-mai"
+path = "1er-mai"
 name = "Manif 1er mai"
 place = { name = "Place Jean-Jaurès", addr = "Place Jean-Jaurès, Troyes" }
 date = 2026-05-01T10:00:00+02:00
 notes = []
 
 [[event]]
-path = "20260606-pride"
+path = "pride"
 name = "Pride de Troyes 2026"
 place = { name = "Place de la Libération", addr = "Place de la Préfecture 10000 Troyes" }
 date = 2026-06-06T14:30:00+02:00
@@ -54,21 +54,21 @@ notes = [
 ]
 
 [[event]]
-path = "20260607-printemps-viennes"
+path = "printemps-viennes"
 name = "Printemps des Viennes"
 place = { name = "Place Robert Galley", addr = "Place Robert Galley 10000 Troyes" }
 date = 2026-06-07T11:30:00+02:00
 notes = ["Le p'tit concert d'onc'Pascal", "Chansons jeunes public"]
 
 [[event]]
-path = "20260608-enfantiste"
+path = "enfantiste"
 name = "Rassemblement devant le Tribunal de Troyes @Collectif enfantiste 10"
 place = { name = "Tribunal de Troyes", addr = "83 Rue Général de Gaulle, 10000 Troyes" }
 date = 2026-06-08T19:00:00+02:00
 notes = ["https://www.instagram.com/collectifenfantiste10/p/DZNHRnuMVmJ/"]
 
 [[event]]
-path = "20260609-aesh"
+path = "aesh"
 name = "Ecole inclusive: toutes et tous mobilisé·es!"
 place = { name = "Devant le collège Langevin de Ste Savine", addr = "14 Av. Gabriel Thierry, 10300 Sainte-Savine" }
 date = 2026-06-09T17:00:00+02:00
@@ -78,7 +78,7 @@ notes = [
 ]
 
 [[event]]
-path = "20260615-enfantiste"
+path = "enfantiste"
 name = "Rassemblement contre les violences faites aux enfants @Collectif enfantiste 10"
 place = { name = "Tribunal de Troyes", addr = "83 Rue Général de Gaulle, 10000 Troyes" }
 date = 2026-06-15T19:00:00+02:00
@@ -90,7 +90,7 @@ notes = [
 ]
 
 [[event]]
-path = "20260620-marche-contre-extreme-droite"
+path = "marche-contre-extreme-droite"
 name = "Un coup KO - Rassemblement Contre le racisme, les discriminations et l'extrême droite"
 place = { name = "Devant l'hôtel de ville", addr = "Place Alexandre Israël, 10000 Troyes" }
 date = 2026-06-20T14:00:00+02:00
@@ -101,7 +101,7 @@ notes = [
 ]
 
 [[event]]
-path = "202606-marge-centre-vendredi"
+path = "marge-centre-vendredi"
 name = "De la marge au centre (vendredi)"
 place = { name = "Ateliers Ginkgo", addr = "9 rue Jeanne d’arc, 10000 Troyes" }
 date = 2026-06-19T18:00:00+02:00
@@ -120,7 +120,7 @@ notes = [
 ]
 
 [[event]]
-path = "202606-marge-centre-samedi"
+path = "marge-centre-samedi"
 name = "De la marge au centre (samedi)"
 place = { name = "Ateliers Ginkgo", addr = "9 rue Jeanne d’arc, 10000 Troyes" }
 date = 2026-06-20T10:00:00+02:00
@@ -143,7 +143,7 @@ notes = [
 ]
 
 [[event]]
-path = "202606-marge-centre-dimanche"
+path = "marge-centre-dimanche"
 name = "De la marge au centre (dimanche)"
 place = { name = "Ateliers Ginkgo", addr = "9 rue Jeanne d’arc, 10000 Troyes" }
 date = 2026-06-21T10:00:00+02:00
@@ -166,7 +166,7 @@ notes = [
 ]
 
 [[event]]
-path = "20260703-manifestation-palestine"
+path = "manifestation-palestine"
 name = "Manifestation en solidarité du peuple palestinien"
 date = 2026-07-04T10:30:00+02:00
 place = { name = "Place Jean-Jaurès", addr = "Place Jean-Jaurès, Troyes" }
@@ -177,7 +177,7 @@ notes = [
 ]
 
 [[event]]
-path = "20260706-enfantiste"
+path = "enfantiste"
 name = "Rassemblement contre les violences faites aux enfants @Collectif enfantiste 10"
 place = { name = "Tribunal de Troyes", addr = "83 Rue Général de Gaulle, 10000 Troyes" }
 date = 2026-07-06T19:00:00+02:00
@@ -190,15 +190,8 @@ notes = [
 ]
 
 [[event]]
-path = "20260625-conference-fanny-gallot"
+path = "conference-fanny-gallot"
 name = "[REPORTÉ EN SEPTEMBRE] Conférence - Leurs paniques, Nos combats - Par Fanny Gallot"
 place = { name = "Espace Monmousseau", addr = "2 Av. du 8 Mai, 10100 Romilly-sur-Seine" }
 date = 2026-06-25T18:30:00+02:00
 notes = [""]
-
-# [[event]]
-# path = ""
-# name = ""
-# place = { name = "", addr = "" }
-# date = false
-# notes = [""]

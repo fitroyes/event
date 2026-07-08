@@ -3,6 +3,7 @@
 import _HEAD from "./head.html" with { type: "text" };
 import * as TOML from "@std/toml";
 import * as HTML from "@huguesguilleus/html";
+import { walk } from "@std/fs";
 
 const HEAD = {
 	h: _HEAD
@@ -34,15 +35,33 @@ await Deno.copyFile("favicon.webp", "public/favicon.webp");
 await Deno.copyFile("robots.txt", "public/robots.txt");
 
 const future_events = [];
+const now = new Date();
+const events = new Map<number, Event[]>();
+for await (const { path } of walk(".", { exts: [".toml"], maxDepth: 1 })) {
+	console.log("read", path, "...");
+	const data = TOML.parse(await Deno.readTextFile(path)) as { event: Event[] };
+	for (const event of data.event) {
+		const year = event.date.getFullYear();
+		events.set(year, events.get(year) ?? []);
+		events.get(year)?.push(event);
+		const m = (event.date.getMonth() + 1).toString().padStart(2, "0");
+		const d = event.date.getDate().toString().padStart(2, "0");
+		event.path = `${year}${m}${d}-${event.path}`;
+		if (now < event.date) {
+			future_events.push(event);
+		}
+	}
+}
 
-for (const year of [2026]) {
-	const { event } = TOML.parse(await Deno.readTextFile(year + ".toml")) as {
-		event: Event[];
-	};
+for (const list of events.values()) {
+	list.sort((a, b) => a.date.valueOf() - b.date.valueOf());
+}
+
+for (const [year, list] of events.entries()) {
 	await Deno.mkdir(`public/${year}`, { recursive: true });
 
 	// Generate event page
-	for (const e of event) {
+	for (const e of list) {
 		await Deno.writeTextFile(
 			`public/${year}/${e.path}.html`,
 			HTML.htmlRoot(
@@ -88,13 +107,6 @@ for (const year of [2026]) {
 		);
 	}
 
-	// Get future event.
-	for (const e of event) {
-		if (e.date.valueOf() > Date.now()) {
-			future_events.push(e);
-		}
-	}
-
 	// Generate year index
 	await Deno.writeTextFile(
 		`public/${year}.html`,
@@ -111,7 +123,7 @@ for (const year of [2026]) {
 				"body",
 				HTML.html("header", HTML.html("h1", "Agenda " + year)),
 				HTML.htmlAttr`a.link href=./index.html `("Accueil"),
-				HTML.html("main", event.map((event) => print_event(event, true))),
+				HTML.html("main", list.map((event) => print_event(event, true))),
 				ABOUT,
 			),
 		),
