@@ -188,10 +188,3 @@ notes = [
   "Aussi, nous profiterons de l'été pour mieux revenir pour une mobilisation le 7 septembre dont nous vous parlerons très vite !",
   "https://www.instagram.com/collectifenfantiste10/p/DaP3SVXMwwL/",
 ]
-
-[[event]]
-path = "conference-fanny-gallot"
-name = "[REPORTÉ EN SEPTEMBRE] Conférence - Leurs paniques, Nos combats - Par Fanny Gallot"
-place = { name = "Espace Monmousseau", addr = "2 Av. du 8 Mai, 10100 Romilly-sur-Seine" }
-date = 2026-06-25T18:30:00+02:00
-notes = [""]

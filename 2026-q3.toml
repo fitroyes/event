@@ -1,0 +1,34 @@
+[[event]]
+path = "viewing-parties"
+name = "Les Viewing Parties"
+place = { name = "Gotham", addr = "17 Rue Pithou, 10000 Troyes" }
+date = 2026-07-10T00:00:00+02:00 #quelle horaire?
+notes = [
+	"!!! HORAIRE INCONNUES !!!",
+	"Tout au long de cette programmation estivale, le public pourra retrouver les artistes de la House of Gold: Dear Angel, Galatea Gold, Captain Edward Bitch et bien évidemment Estrella Gold, qui feront de chaque soirée un moment unique de partage, de spectacle et de célébration.",
+	"Impossible également de passer à côté de la superbe affiche réalisée par Julie du Gotham. Son travail met parfaitement en lumière l'énergie de l'événement et contribue à faire monter l'impatience avant cette série de rendez-vous estivaux. Un immense bravo à elle pour cette création pleine de caractère et de talent!",
+	"Que vous soyez un habitué des Viewing Parties ou que vous souhaitiez découvrir l'univers de la House of Gold pour la première fois, ces soirées s'annoncent comme l'un des événements incontournables de l'été 2026. Entre convivialité, performances et bonne humeur, tous les ingrédients sont réunis pour passer d'excellentes soirées.",
+	"Alors notez ces dates dans vos agendas et rendez-vous au Gotham dès le 10 juillet pour célébrer l'été avec la House of Gold!",
+	"https://pride2troyes.fr/blog/2026-06-24-viewings-parties-avec-estrella-gold-19",
+]
+
+[[event]]
+path = "enfantiste"
+name = "Rassemblement contre les violences faites aux enfants @Collectif enfantiste 10"
+place = { name = "Tribunal de Troyes", addr = "83 Rue Général de Gaulle, 10000 Troyes" }
+date = 2026-09-07T19:00:00+02:00
+notes = ["Prochaine mobilisation devant le tribunal pour la «loi intégrale»"]
+
+[[event]]
+path = "conference-fanny-gallot"
+name = "[REPORTÉ EN SEPTEMBRE] Conférence - Leurs paniques, Nos combats - Par Fanny Gallot"
+place = { name = "Espace Monmousseau", addr = "2 Av. du 8 Mai, 10100 Romilly-sur-Seine" }
+date = 2026-06-25T18:30:00+02:00
+notes = [""]
+
+# [[event]]
+# path = ""
+# name = ""
+# place = { name = "", addr = "" }
+# date = false
+# notes = [""]
