@@ -13,6 +13,22 @@ notes = [
 ]
 
 [[event]]
+path = "chatons"
+name = "Camp CHATONS 2026"
+place = { name = "Auberge de Jeunesse Troyes-Rosières", addr = "Chemin Sainte Scholastique 10430 Rosières" }
+date = 2026-08-13T14:00:00+02:00
+end = 2026-08-17T17:00:00+02:00
+notes = [
+	"Le camp CHATONS 2026 aura lieu du jeudi 13 août au lundi 17 août à l’auberge de jeunesse Troyes Rosières, Chemin Sainte Scholastique 10430 Rosières (à côté de la ville de Troyes dans l’Aube).",
+	"Le camp CHATONS est un moment de convivialité qui rassemble pendant quelques jours les membres du collectif ainsi que des personnes « alliées » qui pourraient apporter leur pierre aux échanges qui s’y dérouleront. Celui-ci doit aussi permettre de profiter du temps ensemble pour parler autant geekerie que vie et avenir du collectif CHATONS.",
+	"Pour vous inscrire, merci de compléter le formulaire d’inscription au plus vite même si vous ne maîtrisez pas toutes les informations. Il sera toujours temps de les modifier plus tard.",
+	"https://framaforms.org/inscription-au-camp-chatons-2026-1775830691",
+	"Le contenu de ce Camp CHATONS est élaboré par les participant⋅es, sur le principe des BarCamp. Ce cadre d’autogestion nous semble important pour mieux appréhender les questionnements autour de la raison d’être du collectif et de son activité. Une fois inscrit⋅e, vous pourrez faire des propositions pour animer des ateliers et prendre connaissance des ateliers proposés par les autres participant⋅es.",
+	"https://fr.wikipedia.org/wiki/BarCamp",
+	"https://www.chatons.org/node/7600",
+]
+
+[[event]]
 path = "enfantiste"
 name = "Rassemblement contre les violences faites aux enfants @Collectif enfantiste 10"
 place = { name = "Tribunal de Troyes", addr = "83 Rue Général de Gaulle, 10000 Troyes" }

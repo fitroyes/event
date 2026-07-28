@@ -22,10 +22,17 @@ const ABOUT = HTML.html(
 	HTML.htmlAttr`a href=https://github.com/fitroyes/event/ `("Code source"),
 );
 
+const dateFormat = Intl.DateTimeFormat("fr", {
+	dateStyle: "full",
+	timeStyle: "short",
+	timeZone: "Europe/Paris",
+});
+
 type Event = {
 	path: string;
 	name: string;
 	date: Date;
+	end?: Date;
 	place: { name: string; addr: string };
 	notes: string[];
 };
@@ -159,7 +166,7 @@ await Deno.copyFile("404.html", "public/404.html");
 function notes(lines: string[] = []): HTML.HTML[] {
 	return lines.map((line) =>
 		/^https?:\/\//.test(line)
-			? HTML.htmlAttr`a href='${line}'`(line)
+			? HTML.html("div", HTML.htmlAttr`a href='${line}'`(line))
 			: HTML.html("p", line)
 	);
 }
@@ -171,11 +178,9 @@ function print_event(event: Event, notPage: boolean): HTML.HTML {
 		notPage && HTML.html("h2", event.name),
 		HTML.html(
 			"div",
-			Intl.DateTimeFormat("fr", {
-				dateStyle: "full",
-				timeStyle: "short",
-				timeZone: "Europe/Paris",
-			}).format(event.date),
+			event.end
+				? dateFormat.formatRange(event.date, event.end)
+				: dateFormat.format(event.date),
 		),
 		HTML.html("div", event.place.name),
 		HTML.html("div", event.place.addr),
