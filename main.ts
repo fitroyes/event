@@ -151,7 +151,10 @@ await Deno.writeTextFile(
 		HTML.html(
 			"body",
 			HTML.html("header", HTML.html("h1", "Futurs évènements")),
-			HTML.htmlAttr`a.link href=2026.html`(2026 + ""),
+			[...events.keys()].map((year) =>
+				HTML.htmlAttr`a.link href=${year + ""}.html`(year + "")
+			),
+			HTML.htmlAttr`a.link href=events.ics`("ICS"),
 			HTML.html(
 				"main",
 				...future_events.map((event) => print_event(event, true)),
@@ -160,8 +163,6 @@ await Deno.writeTextFile(
 		),
 	),
 );
-
-await Deno.copyFile("404.html", "public/404.html");
 
 function notes(lines: string[] = []): HTML.HTML[] {
 	return lines.map((line) =>
@@ -186,3 +187,24 @@ function print_event(event: Event, notPage: boolean): HTML.HTML {
 		HTML.html("div", event.place.addr),
 	);
 }
+
+let ics = "BEGIN:VCALENDAR\nVERSION:2.0\n\n";
+for (const event of future_events) {
+	ics += "BEGIN:VEVENT\n";
+	ics += "DTSTART:" +
+		event.date.toJSON().replaceAll(/[-:]/g, "").replace(".000Z", "Z\n");
+	ics += "DTEND:" +
+		(event.end ?? new Date(event.date + 3600_000)).toJSON().replaceAll(
+			/[-:]/g,
+			"",
+		).replace(".000Z", "Z\n");
+	ics += "SUMMARY:" + event.name + "\n";
+	ics += "TRANSP:TRANSPARENT\n";
+	ics += `LOCATION:${event.place.name} ${event.place.addr}\n`;
+	for (const line of event.notes) {
+		ics += "DESCRIPTION:" + line + "\n";
+	}
+	ics += "END:VEVENT\n\n";
+}
+ics += "END:VCALENDAR";
+await Deno.writeTextFile("public/events.ics", ics);
