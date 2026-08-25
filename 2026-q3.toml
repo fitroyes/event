@@ -2,7 +2,7 @@
 path = "viewing-parties"
 name = "Les Viewing Parties"
 place = { name = "Gotham", addr = "17 Rue Pithou, 10000 Troyes" }
-date = 2026-07-10T00:00:00+02:00 #quelle horaire?
+date = 2026-07-10T19:30:00+02:00
 notes = [
 	"!!! HORAIRE INCONNUES !!!",
 	"Tout au long de cette programmation estivale, le public pourra retrouver les artistes de la House of Gold: Dear Angel, Galatea Gold, Captain Edward Bitch et bien évidemment Estrella Gold, qui feront de chaque soirée un moment unique de partage, de spectacle et de célébration.",

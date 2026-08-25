@@ -194,10 +194,11 @@ for (const event of future_events) {
 	ics += "DTSTART:" +
 		event.date.toJSON().replaceAll(/[-:]/g, "").replace(".000Z", "Z\n");
 	ics += "DTEND:" +
-		(event.end ?? new Date(event.date + 3600_000)).toJSON().replaceAll(
-			/[-:]/g,
-			"",
-		).replace(".000Z", "Z\n");
+		(event.end ?? new Date(event.date.valueOf() + 3600_000)).toJSON()
+			.replaceAll(
+				/[-:]/g,
+				"",
+			).replace(".000Z", "Z\n");
 	ics += "SUMMARY:" + event.name + "\n";
 	ics += "TRANSP:TRANSPARENT\n";
 	ics += `LOCATION:${event.place.name} ${event.place.addr}\n`;
