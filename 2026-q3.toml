@@ -42,6 +42,17 @@ place = { name = "Espace Monmousseau", addr = "2 Av. du 8 Mai, 10100 Romilly-sur
 date = 2026-06-25T18:30:00+02:00
 notes = [""]
 
+[[event]]
+path = "france_eternelle_archeologie"
+name = "La france éternelle? une enquête archéologique"
+place = { name = "Auditorium de St Julien les Villas", addr = "3 Rue Jean Jacques Rousseau, 10800 Saint-Julien-les-Villas" }
+date = 2026-09-16T18:30:00+02:00
+notes = [
+	"Nous ouvrons notre Université Populaire avec la conférence de Jean-Paul DEMOULE qui fut supprimée à cause de la canicule.",
+	"Jean-Paul Demoule est l’un des plus grands archéologues français contemporains. Il a interrogé avec rigueur et esprit critique l’idée d’une identité française que certains disent immuable. En analysant 3 millénaires de découvertes archéologiques, il montre que notre histoire est avant tout celle de rencontres, de métissages et de transformations permanentes.",
+	"https://www.facebook.com/photo/?fbid=4464951033821158",
+]
+
 # [[event]]
 # path = ""
 # name = ""
