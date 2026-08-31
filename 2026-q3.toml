@@ -53,6 +53,28 @@ notes = [
 	"https://www.facebook.com/photo/?fbid=4464951033821158",
 ]
 
+[[event]]
+path = "adelphes"
+name = "“Joyeuses Luttes !” - Repas partagé et journée festive aux Adelphes"
+place = { name = "Parvis de l’Art Déco à Sainte-Savine", addr = "70 Av. du Général Gallieni, 10300 Sainte-Savine" }
+date = 2026-09-20T11:30:00+02:00
+end = 2026-09-20T20:00:00+02:00
+notes = [
+	"🎉 Une journée pour se retrouver, partager… et célébrer nos luttes\u202F!",
+	"📅 Dimanche 20 septembre, les Adelphes vous donnent rendez-vous pour une journée placée sous le signe de la joie, de la convivialité et du collectif\u202F!",
+	"🍽️ 11h30 — Accueil\u00A0: Venez rencontrer les bénévoles, (re)découvrir notre local et faire connaissance\u202F!",
+	"🥗 12h — Repas partagé\u00A0: Ramenez ce qui vous fait plaisir et mettons tout en commun\u202F! Parce qu’un bon moment, ça se partage aussi autour d’une table 💛",
+	"🎤 13h — Micro ouvert\u00A0: Un texte à lire\u202F? Une chanson\u202F? Une envie de crier, rire ou partager\u202F? Le micro est à vous\u202F!",
+	"💃 14h15 — Atelier danse:\u00A0 Venez danser avec Lola, vous amuser et lâcher prise ensemble\u202F!",
+	"🎨 15h — Atelier cyanotype\u00A0: Découvrez cette technique d’impression avec Inès et repartez avec votre création\u202F!",
+	"🎶 16h — Chorale féministe\u00A0: On écoute, on chante, on fait raisonner nos voix avec la chorale des Adelphes\u202F!",
+	"🎤 17h — Micro ouvert\u00A0: Deuxième chance de prendre le micro et de faire entendre votre voix\u202F!",
+	"🎬 18h — Séance cinéma\u00A0: On termine la journée avec la projection de Freaks de Tod Browning.",
+	"✨ Et tout au long de l’après-midi\u00A0: expo participative de pancartes de lutte, coin fanzines & surprises\u202F! N’hésite pas à ramener tes pancartes préférées pour les exposer",
+	"Alors, venez avec vos pancartes, vos textes, vos idées, vos chansons, votre repas… et surtout votre bonne humeur\u202F!\u00A0🧚‍♀️",
+	"https://www.auxadelphes.com/agenda/event-one-f72ey-xbwf4-zbgsy-anzmk-4rxbc-8xt5z-gaesl-chzwc-mgyh5-3x367-dy886-h7bhl-2z559",
+]
+
 # [[event]]
 # path = ""
 # name = ""
