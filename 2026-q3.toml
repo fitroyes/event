@@ -43,6 +43,23 @@ date = 2026-06-25T18:30:00+02:00
 notes = [""]
 
 [[event]]
+path = "utopia-survivants-che"
+name = "Ciné-débat : Les Survivants du Che"
+place = { name = "Cinéma UTOPIA", addr = "11 Rue du Moulinet 10150 Pont-Sainte-Marie" }
+date = 2026-09-10T20:00:00+02:00
+notes = [
+	"Suivi d’un débat animé par la LDH de l’Aube",
+	"Après le triomphe de la Révolution cubaine en 1959, trois guérilleros ont suivi Che Guevara dans sa tentative d’étendre le soulèvement au-delà de l’île. En 1967, après leur dernière bataille en Bolivie et l’exécution du Che, ces guerriers de l’ombre se lancent dans un périple extraordinaire de 2 400 km à travers la Bolivie, poursuivis par 4 000 soldats en territoire ennemi dans l’espoir de rejoindre Cuba.",
+	"Soixante ans plus tard, les derniers camarades survivants du Che racontent cette histoire inédite, faite d’endurance et de loyauté, dans laquelle les destins individuels ont été façonnés par les grands courants géopolitiques de la Guerre froide. Mêlant des images d’archives rares, des animations et des interviews exclusives, le film fait revivre un chapitre oublié de l’Histoire.",
+	"Réalisé par : Christophe Dimitri RÉVEILLE",
+	"Année de production : 2026",
+	"Pays : France",
+	"Durée : 98 minutes",
+	"Date de sortie : 09.09.2026",
+	"https://site.ldh-france.org/troyes-et-aube/cine-debat-les-survivants-du-che/",
+]
+
+[[event]]
 path = "france_eternelle_archeologie"
 name = "La france éternelle? une enquête archéologique"
 place = { name = "Auditorium de St Julien les Villas", addr = "3 Rue Jean Jacques Rousseau, 10800 Saint-Julien-les-Villas" }
