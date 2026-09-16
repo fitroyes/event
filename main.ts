@@ -31,6 +31,7 @@ const dateFormat = Intl.DateTimeFormat("fr", {
 type Event = {
 	path: string;
 	name: string;
+	desc?: string;
 	date: Date;
 	end?: Date;
 	place: { name: string; addr: string };
@@ -77,7 +78,13 @@ for (const [year, list] of events.entries()) {
 					"head",
 					HEAD,
 					HTML.html("link rel=icon href=../favicon.webp"),
+					{ h: `<meta property=og:type content=website>` },
 					HTML.html("title", e.name),
+					HTML.htmlAttr`meta property=og:title content="${e.name}"`(),
+					!!e.desc && [
+						HTML.htmlAttr`meta name=description content="${e.desc}"`(),
+						HTML.htmlAttr`meta property=og:description content="${e.desc}"`(),
+					],
 					HTML.html(
 						"script type=application/ld+json",
 						{
@@ -173,9 +180,13 @@ function notes(lines: string[] = []): HTML.HTML[] {
 }
 
 function print_event(event: Event, notPage: boolean): HTML.HTML {
-	return HTML.htmlAttr`${notPage ? "a" : "div"}.event${
-		event.date.valueOf() < Date.now() ? ".old" : ""
-	} href="${event.date.getFullYear() + ""}/${event.path}.html"`(
+	const old = event.date.valueOf() < Date.now() ? ".old" : "";
+	const tag = notPage
+		? HTML.htmlAttr`a.event${old} href="${
+			event.date.getFullYear() + ""
+		}/${event.path}.html"`
+		: HTML.htmlAttr`div.event${old}`;
+	return tag(
 		notPage && HTML.html("h2", event.name),
 		HTML.html(
 			"div",

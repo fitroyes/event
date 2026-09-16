@@ -85,6 +85,7 @@ notes = [
 [[event]]
 path = "manif_contre_la_loi_permis_de_tuer"
 name = "Manifestation contre la loi permis de tuer"
+desc = "Suite à un appel national initié par Amnesty international un rassemblement aura lieu à Troyes le 20 septembre à 10h30 Place de l'Hôtel de ville à Troyes pour les lois et libertés\u202F; et contre la loi permis de tuer qui confère une présomption de légitime défense aux forces de l'ordre."
 place = { name = "Devant l'hôtel de ville", addr = "Place Alexandre Israël, 10000 Troyes" }
 date = 2026-09-19T10:30:00+02:00
 end = 2026-09-19T11:30:00+02:00
@@ -97,6 +98,7 @@ notes = [
 [[event]]
 path = "adelphes"
 name = "“Joyeuses Luttes !” - Repas partagé et journée festive aux Adelphes"
+desc = "Une journée pour se retrouver, partager… et célébrer nos luttes\u202F! les Adelphes vous donnent rendez-vous pour une journée placée sous le signe de la joie, de la convivialité et du collectif"
 place = { name = "Parvis de l’Art Déco à Sainte-Savine", addr = "70 Av. du Général Gallieni, 10300 Sainte-Savine" }
 date = 2026-09-20T11:30:00+02:00
 end = 2026-09-20T20:00:00+02:00
@@ -119,6 +121,7 @@ notes = [
 [[event]]
 path = "paniques_combats_fanny_gallot"
 name = "Leurs paniques, nos combats - Par Fanny Gallot"
+desc = "Conférence et débat avec Fanny Gallot, historienne à l'Université Paris-Est-Créteil et chercheuse en histoire contemporaine comparée."
 place = { name = "Espace Monmousson", addr = "2 Avenue du 8 Mai, 10100 Romilly-sur-Seine" }
 date = 2026-09-24T18:30:00+02:00
 notes = [
@@ -128,8 +131,9 @@ notes = [
 ]
 
 [[event]]
-path = "Marche_26_septembre"
+path = "marche_26_septembre"
 name = "Marche 26 septembre Aube - marche pour le climat, le vivant, la paix et la justice sociale"
+desc = "Marchons partout en France pour le climat, le vivant, la paix et la justice sociale."
 place = { name = "Kiosque du Jardin du Rocher", addr = "22 Rue Gregoire Pierre Herluison, 10000 Troyes" }
 date = 2026-09-26T16:00:00+02:00
 notes = [
@@ -146,6 +150,7 @@ notes = [
 # [[event]]
 # path = ""
 # name = ""
+# desc = ""
 # place = { name = "", addr = "" }
 # date = false
 # notes = [""]
