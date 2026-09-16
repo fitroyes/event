@@ -179,9 +179,9 @@ function print_event(event: Event, notPage: boolean): HTML.HTML {
 		notPage && HTML.html("h2", event.name),
 		HTML.html(
 			"div",
-			event.end
+			(event.end
 				? dateFormat.formatRange(event.date, event.end)
-				: dateFormat.format(event.date),
+				: dateFormat.format(event.date)).replace(/^\w/, (c) => c.toUpperCase()),
 		),
 		HTML.html("div", event.place.name),
 		HTML.html("div", event.place.addr),
