@@ -60,6 +60,18 @@ notes = [
 ]
 
 [[event]]
+path = "rassemblement_social_ars"
+name = "Rassemblement le 15 septembre à 14h devant l'ARS à Troyes"
+place = { name = "ARS à Troyes", addr = "Cité administrative des Vassaules, 22 rue Grégoire Pierre Herluison, Bat B" }
+date = 2026-09-15T14:00:00+02:00
+notes = [
+	"Pour les salarié·es, pour la population, cela ne peut plus durer\u202F!",
+	"La CGT Santé et Action Sociale appelle à la grève ce mardi 15 septembre 2026. Un rassemblement est prévu à 14h00 devant l'ARS à Troyes (Cité administrative des Vassaules, 22 rue Grégoire Pierre Herluison, Bat B). Ce mouvement national dénonce les conditions de travail\u00A0: manque de moyens, sous-effectifs et dégradation des conditions de travail et salaires de plus en plus insuffisants.",
+	"Il faut des budgets permettant de répondre aux besoins des patients et des usagers. IMMEDIATEMENT\u202F!",
+	"https://www.cgtud10.fr/actualites/c/0/i/98025186/rassemblement-le-15-septembre-14h-devant-l-ars-troyes",
+]
+
+[[event]]
 path = "france_eternelle_archeologie"
 name = "La france éternelle? une enquête archéologique"
 place = { name = "Auditorium de St Julien les Villas", addr = "3 Rue Jean Jacques Rousseau, 10800 Saint-Julien-les-Villas" }
@@ -68,6 +80,18 @@ notes = [
 	"Nous ouvrons notre Université Populaire avec la conférence de Jean-Paul DEMOULE qui fut supprimée à cause de la canicule.",
 	"Jean-Paul Demoule est l’un des plus grands archéologues français contemporains. Il a interrogé avec rigueur et esprit critique l’idée d’une identité française que certains disent immuable. En analysant 3 millénaires de découvertes archéologiques, il montre que notre histoire est avant tout celle de rencontres, de métissages et de transformations permanentes.",
 	"https://www.facebook.com/photo/?fbid=4464951033821158",
+]
+
+[[event]]
+path = "manif_contre_la_loi_permis_de_tuer"
+name = "Manifestation contre la loi permis de tuer"
+place = { name = "Devant l'hôtel de ville", addr = "Place Alexandre Israël, 10000 Troyes" }
+date = 2026-09-19T10:30:00+02:00
+end = 2026-09-19T11:30:00+02:00
+notes = [
+	"Suite à un appel national initié par Amnesty international un rassemblement aura lieu à Troyes le 20 septembre à 10h30 Place de l'Hôtel de ville à Troyes pour les lois et libertés\u202F; et contre la loi permis de tuer qui confère une présomption de légitime défense aux forces de l'ordre.",
+	"https://www.cgtud10.fr/actualites/c/0/i/98041423/20-09-26-10h30-contre-la-loi-permis-de-tuer",
+	"https://actionpopulaire.fr/evenements/51da3cd9-3e0c-42e6-a43e-721cc6d3614c/",
 ]
 
 [[event]]
@@ -90,6 +114,33 @@ notes = [
 	"✨ Et tout au long de l’après-midi\u00A0: expo participative de pancartes de lutte, coin fanzines & surprises\u202F! N’hésite pas à ramener tes pancartes préférées pour les exposer",
 	"Alors, venez avec vos pancartes, vos textes, vos idées, vos chansons, votre repas… et surtout votre bonne humeur\u202F!\u00A0🧚‍♀️",
 	"https://www.auxadelphes.com/agenda/event-one-f72ey-xbwf4-zbgsy-anzmk-4rxbc-8xt5z-gaesl-chzwc-mgyh5-3x367-dy886-h7bhl-2z559",
+]
+
+[[event]]
+path = "paniques_combats_fanny_gallot"
+name = "Leurs paniques, nos combats - Par Fanny Gallot"
+place = { name = "Espace Monmousson", addr = "2 Avenue du 8 Mai, 10100 Romilly-sur-Seine" }
+date = 2026-09-24T18:30:00+02:00
+notes = [
+	"Conférence et débat avec Fanny Gallot, historienne à l'Université Paris-Est-Créteil et chercheuse en histoire contemporaine comparée.",
+	"Avec le collectif de lutte contre les extrêmes droites et la librairie associative les passeurs de textes.",
+	"Entrée libre, repas partagé",
+]
+
+[[event]]
+path = "Marche_26_septembre"
+name = "Marche 26 septembre Aube - marche pour le climat, le vivant, la paix et la justice sociale"
+place = { name = "Kiosque du Jardin du Rocher", addr = "22 Rue Gregoire Pierre Herluison, 10000 Troyes" }
+date = 2026-09-26T16:00:00+02:00
+notes = [
+	"Plus de 7 300 personnes sont mortes de la canicule cet été. Le Fonds vert est passé de 2,5 milliards d'euros à 837 millions, quand 6,7 milliards ont été ajoutés au seul budget des armées en un an. TotalEnergies a encaissé 5,4 milliards de dollars en un seul trimestre. Nous ne venons pas demander qu'on nous plaigne. Nous venons demander des comptes.",
+	"Nous exigeons un plan d'urgence, d'adaptation et d'atténuation - sans attendre un été de plus.",
+	"Marchons partout en France pour le climat, le vivant, la paix et la justice sociale.",
+	"Rendez-vous samedi 26 septembre à 16h au Kiosque du Jardin du Rocher à Troyes pour marcher ensemble\u202F!",
+	"L'appel national\u00A0:",
+	"https://26septembre.org/",
+	"Tous les détails\u00A0:",
+	"https://linktr.ee/26SeptembreAube",
 ]
 
 # [[event]]
