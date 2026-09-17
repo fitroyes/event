@@ -24,6 +24,8 @@ const ABOUT = HTML.html(
 		"Ce site est hébergé par OVH SAS 2 rue Kellermann - 59100 Roubaix - France",
 	),
 	HTML.htmlAttr`a href=https://github.com/fitroyes/event/ `("Code source"),
+	" ",
+	HTML.htmlAttr`a href=/LICENSE `("License MIT"),
 );
 
 const dateFormat = Intl.DateTimeFormat("fr", {
@@ -45,6 +47,7 @@ type Event = {
 await Deno.mkdir("public", { recursive: true });
 await Deno.copyFile("favicon.webp", "public/favicon.webp");
 await Deno.copyFile("robots.txt", "public/robots.txt");
+await Deno.copyFile("LICENSE", "public/LICENSE");
 
 const future_events = [];
 const now = new Date();
