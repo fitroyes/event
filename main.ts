@@ -19,6 +19,10 @@ const ABOUT = HTML.html(
 		"div",
 		"Ce site web référence des évènements concernant des luttes progressistes qui se déroulent autour à Troyes.",
 	),
+	HTML.html(
+		"div",
+		"Ce site est hébergé par OVH SAS 2 rue Kellermann - 59100 Roubaix - France",
+	),
 	HTML.htmlAttr`a href=https://github.com/fitroyes/event/ `("Code source"),
 );
 
