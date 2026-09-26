@@ -148,6 +148,18 @@ notes = [
 ]
 
 [[event]]
+path = "greve_fonction_publique"
+name = "Le 29 septembre : GREVE ET MANIFESTATION pour les salaires et le service public"
+desc = "Le 30 septembre prochain, le Premier ministre présentera son projet de budget pour 2027. La veille, l'intersyndical de la Fonction publique appelle à se mettre en grève et à manifester pour imposer d'autres choix budgétaires."
+place = { name = "Devant la Préfecture de l'Aube", addr = "Place de la Liberation 10000 Troyes" }
+date = 2026-09-29T13:30:00+02:00
+notes = [
+	"Le 29 septembre, les agent·es de la Fonction publique seront en grève et en manifestation à l'appel de tous les syndicats, pour leurs salaires, leurs conditions de travail et les moyens des services publics\u00A0: pompiers, soignant·es, enseignant·es et celles et ceux qui assurent des missions de services public. Mais cette journée ne concerne pas que les fonctionnaires.",
+	"https://www.cgtud10.fr/actualites/c/0/i/98137899/le-29-septembre-greve-et-manifestation-pour-les-salaires-et-le-service-public",
+	"https://10.snuipp.fr/article/en-greve-pour-nos-salaires-pour-un-autre-budget",
+]
+
+[[event]]
 path = "fete_possible"
 name = "Fête des Possibles\u202F!"
 desc = ""
