@@ -164,9 +164,15 @@ path = "fete_possible"
 name = "Fête des Possibles\u202F!"
 desc = ""
 place = { name = "Cinéma UTOPIA", addr = "11 Rue du Moulinet 10150 Pont-Sainte-Marie" }
-date = 2026-10-04T14:30:00+02:00
+date = 2026-10-04T10:30:00+02:00
 en = 2026-10-04T17:00:00+02:00
-notes = ["https://www.instagram.com/aubedurable10/p/DdOSS0clmZG/"]
+notes = [
+	"- 10:30 Les espaces naturels aubois face au réchauffement climatique",
+	"- 11:15 Contre-Pouvoir citoyens, comment deux associations locales agissent pour l’environnement",
+	"- 14:30 Venez vivre une Fresque du Climat ou une Fresque du Numérique",
+	"https://www.aube-durable.fr",
+	"https://www.instagram.com/aubedurable10/p/DdOSS0clmZG/",
+]
 
 [[event]]
 path = "conf_centenaire_ligue"
