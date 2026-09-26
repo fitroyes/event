@@ -168,6 +168,33 @@ date = 2026-10-04T14:30:00+02:00
 en = 2026-10-04T17:00:00+02:00
 notes = ["https://www.instagram.com/aubedurable10/p/DdOSS0clmZG/"]
 
+[[event]]
+path = "conf_centenaire_ligue"
+name = "Conférence pour le centenaire de la Ligue de l'enseignement (UPop)"
+desc = "Une conférence le 29 septembre 2026 pour le centenaire de la Ligue de l'enseignement par Eric FAVEY organisé par l'Université populaire de l'Aube."
+place = { name = "Auditorium de la maison du patrimoine", addr = "" }
+date = 2026-09-29T18:30:00+02:00
+notes = [
+	"La ligue de l'enseignement, la république en action. Eric FAVEY.",
+	"LE CENTENAIRE DE LA LIGUE",
+	"100 ans après sa création, celle, que Léon Gambetta, Président du conseil de l'époque, invitait à devenir la République en action, joue-t-elle encore son rôle\u00A0?",
+	"La Ligue de l'enseignement fut créée pour combattre l'ignorance et défendre une République qui ne pouvait survivre sans citoyens éduqués, émancipés et acteurs de leur monde.",
+	"Ce combat reposait sur la promotion de la laïcité (loi de 1905), la défense de l'école publique (lois scolaires 1882), et l'avènement de l'éducation populaire (loi de 1901) deuxième jambe de l'engagement éducatif de la nation.",
+	"À l'heure ou le mensonge succède à l'ignorance comment peut-elle agir\u00A0?",
+	"https://upopaube.over-blog.com/2026/09/la-ligue-de-l-enseignement-la-republique-en-action.html",
+]
+
+[[event]]
+path = "parodies_ze_chansons"
+name = "Parodies zé chansons (MRAP)"
+desc = ""
+place = { name = "L'expression libre", addr = "33 Av. Marie de Champagne, 10000 Troyes" }
+date = 2029-10-02T20:30:00+02:00
+notes = [
+	"Avec Claire et Pascal GENNERET",
+	"https://www.facebook.com/photo?fbid=1101248789262607&set=a.149592781094884",
+]
+
 # [[event]]
 # path = ""
 # name = ""
