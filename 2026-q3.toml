@@ -204,6 +204,21 @@ notes = [
 ]
 
 [[event]]
+path = "lyceen_manifestation"
+name = "Manifestation des lycéen·nes"
+desc = "Manifestation et cordon de sécurité pour les lycéen·nes."
+place = { name = "Parking stade songis", addr = "8 Rue Bernard de Clairvaux, 10000 Troyes" }
+date = 2026-10-06T08:00:00+02:00
+notes = [
+	"Les lycéen·nes manifestent demain 6 octobre.",
+	"Nous avons besoin à Troyes de camarades pour protéger les enfants de la police et des casseurs. Notre objectif est d'encadrer, sécuriser et protéger les manifestant·es.",
+	"Un rdv est fixé à 8h00 sur le parking du stade Songis (près du lycée Marie de Champagne).",
+	"La consigne est de porter chasuble et brassard blanc (on en aura sur place).",
+	"https://www.cgtud10.fr/actualites/c/0/i/98273046/article-n-455",
+	"https://www.instagram.com/lombards_on_bloque_tout/",
+]
+
+[[event]]
 path = "upop"
 name = "Les «hussard noirs» de la grande guerre"
 desc = "Conférence le 13 octobre 2026 sur les «hussard noirs» de la grande guerre."
