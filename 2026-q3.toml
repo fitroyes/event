@@ -219,6 +219,30 @@ notes = [
 ]
 
 [[event]]
+path = "fini_de_rire"
+name = "Fini de rire"
+desc = "Projection et débat du film fini de rire"
+place = { name = "Cinéma UTOPIA", addr = "11 Rue du Moulinet 10150 Pont-Sainte-Marie" }
+date = 2026-10-08T20:00:00
+notes = [
+	"Attention, réservez vos palces en avance",
+	"https://actionpopulaire.fr/evenements/11618499-512b-4c8b-b644-b57c84a52e6a/",
+	"https://www.udcgt10.fr/2026/10/manifestation-pour-la-paix-5/",
+	"https://site.ldh-france.org/troyes-et-aube/a-ne-pas-manquer-demain-soir/",
+]
+
+[[event]]
+path = "palestine"
+name = "Manifestation pour la paix en Palestine"
+desc = "Manifestation pour la paix en Palestine"
+place = { name = "Place Jean-Jaurès", addr = "Place Jean-Jaurès, Troyes" }
+date = 2026-10-10T10:30:00
+end = 2026-10-10T11:30:00
+notes = [
+	"https://actionpopulaire.fr/evenements/ad900021-8efb-42e9-b534-3bb6b4b8fc54/",
+]
+
+[[event]]
 path = "upop"
 name = "Les «hussard noirs» de la grande guerre"
 desc = "Conférence le 13 octobre 2026 sur les «hussard noirs» de la grande guerre."
@@ -229,6 +253,31 @@ notes = [
 	"https://www.facebook.com/photo?fbid=4534403480209246&set=a.1388380111478281",
 ]
 
+[[event]]
+path = "festival_alimentaire"
+name = "Projection débat Festival Alimenterre "
+desc = "À l’occasion des 20 ans du festival ALIMENTERRE, le réseau régional multi-acteurs du Grand Est, GESCOD, et l’association AGUI ont le plaisir de vous inviter à une journée placée sous le signe de la solidarité internationale, de l’agriculture et de l’alimentation durable."
+place = { name = "Jardin partagé Chantereigne", addr = "1 Rue Benjamin Franklin, 10600 La Chapelle-Saint-Luc" }
+date = 2026-10-16T14:30:00+02:00
+end = 2026-10-16T20:00:00+02:00
+notes = [
+	"🌱 Visites des jardins partagés de 14h30 à 16h",
+	"14h30 : Jardin partagé Chantereigne (1 rue Benjamin Franklin La Chapelle Saint Luc)",
+	"15h15: Jardin Partagé Solidaire Sacré Cœur 12 rue Léo Lagrange",
+	"Découverte de deux jardins partagés et échanges autour des initiatives locales en faveur d’une alimentation durable, du lien social et de la sensibilisation à l’environnement.",
+	"Cette visite sera également l’occasion de valoriser l’accompagnement de Troyes Champagne Métropole, qui a soutenu l’association AGUI dans la mise en place des composteurs et la formation à leur utilisation. Troyes Champagne Métropole",
+	"",
+	"🎬 18h30 – Projection-débat",
+	"Centre social Victor Hugo – La Chapelle-Saint-Luc",
+	"Projection du film Femmes des terres, documentaire qui croise les parcours de femmes agricultrices au Togo, en Bolivie et en France et met en lumière leur rôle essentiel dans l’agriculture ainsi que les défis auxquels elles sont confrontées.",
+	"La projection sera suivie d’un débat et d’un temps d’échange avec :",
+	"Ingrid MAZZOTI, Les maraîchers Des Viennes",
+	"Marie-Aimée DONGO, Présidente Jardin Partagé Chantereigne",
+	"Hadija HALIDI, Trésorière Jardin partagé Chantereigne",
+	"Rosalina MABANZAILA, Jardin partagé Chantereigne",
+	"",
+	"https://www.facebook.com/events/27873378135668643",
+]
 
 # [[event]]
 # path = ""
