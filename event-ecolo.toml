@@ -1,0 +1,67 @@
+[[event]]
+path = "printemps-viennes"
+name = "Printemps des Viennes"
+place = { name = "Place Robert Galley", addr = "Place Robert Galley 10000 Troyes" }
+date = 2026-06-07T11:30:00+02:00
+notes = ["Le p'tit concert d'onc'Pascal", "Chansons jeunes public"]
+
+[[event]]
+path = "marche_26_septembre"
+name = "Marche 26 septembre Aube - marche pour le climat, le vivant, la paix et la justice sociale"
+desc = "Marchons partout en France pour le climat, le vivant, la paix et la justice sociale."
+place = { name = "Kiosque du Jardin du Rocher", addr = "22 Rue Gregoire Pierre Herluison, 10000 Troyes" }
+date = 2026-09-26T16:00:00+02:00
+notes = [
+	"Plus de 7 300 personnes sont mortes de la canicule cet été. Le Fonds vert est passé de 2,5 milliards d'euros à 837 millions, quand 6,7 milliards ont été ajoutés au seul budget des armées en un an. TotalEnergies a encaissé 5,4 milliards de dollars en un seul trimestre. Nous ne venons pas demander qu'on nous plaigne. Nous venons demander des comptes.",
+	"Nous exigeons un plan d'urgence, d'adaptation et d'atténuation - sans attendre un été de plus.",
+	"Marchons partout en France pour le climat, le vivant, la paix et la justice sociale.",
+	"Rendez-vous samedi 26 septembre à 16h au Kiosque du Jardin du Rocher à Troyes pour marcher ensemble\u202F!",
+	"L'appel national\u00A0:",
+	"https://26septembre.org/",
+	"Tous les détails\u00A0:",
+	"https://linktr.ee/26SeptembreAube",
+]
+
+[[event]]
+path = "fete_possible"
+name = "Fête des Possibles\u202F!"
+desc = ""
+place = { name = "Cinéma UTOPIA", addr = "11 Rue du Moulinet 10150 Pont-Sainte-Marie" }
+date = 2026-10-04T10:30:00+02:00
+en = 2026-10-04T17:00:00+02:00
+notes = [
+	"- 10:30 Les espaces naturels aubois face au réchauffement climatique",
+	"- 11:15 Contre-Pouvoir citoyens, comment deux associations locales agissent pour l’environnement",
+	"- 14:30 Venez vivre une Fresque du Climat ou une Fresque du Numérique",
+	"https://www.aube-durable.fr",
+	"https://www.instagram.com/aubedurable10/p/DdOSS0clmZG/",
+]
+
+[[event]]
+path = "festival_alimentaire"
+name = "Projection débat Festival Alimenterre "
+desc = "À l’occasion des 20 ans du festival ALIMENTERRE, le réseau régional multi-acteurs du Grand Est, GESCOD, et l’association AGUI ont le plaisir de vous inviter à une journée placée sous le signe de la solidarité internationale, de l’agriculture et de l’alimentation durable."
+place = { name = "Jardin partagé Chantereigne", addr = "1 Rue Benjamin Franklin, 10600 La Chapelle-Saint-Luc" }
+date = 2026-10-16T14:30:00+02:00
+end = 2026-10-16T20:00:00+02:00
+notes = """
+À l’occasion des 20 ans du festival ALIMENTERRE, le réseau régional multi-acteurs du Grand Est, GESCOD, et l’association AGUI ont le plaisir de vous inviter à une journée placée sous le signe de la solidarité internationale, de l’agriculture et de l’alimentation durable.
+
+Au programme :
+🌱 Visites des jardins partagés de 14h30 à 16h
+14h30 : Jardin partagé Chantereigne (1 rue Benjamin Franklin La Chapelle Saint Luc)
+15h15: Jardin Partagé Solidaire Sacré Cœur 12 rue Léo Lagrange
+Découverte de deux jardins partagés et échanges autour des initiatives locales en faveur d’une alimentation durable, du lien social et de la sensibilisation à l’environnement.
+Cette visite sera également l’occasion de valoriser l’accompagnement de Troyes Champagne Métropole, qui a soutenu l’association AGUI dans la mise en place des composteurs et la formation à leur utilisation. Troyes Champagne Métropole
+
+🎬 18h30 – Projection-débat
+Centre social Victor Hugo – La Chapelle-Saint-Luc
+Projection du film Femmes des terres, documentaire qui croise les parcours de femmes agricultrices au Togo, en Bolivie et en France et met en lumière leur rôle essentiel dans l’agriculture ainsi que les défis auxquels elles sont confrontées.
+La projection sera suivie d’un débat et d’un temps d’échange avec :
+Ingrid MAZZOTI, Les maraîchers Des Viennes
+Marie-Aimée DONGO, Présidente Jardin Partagé Chantereigne
+Hadija HALIDI, Trésorière Jardin partagé Chantereigne
+Rosalina MABANZAILA, Jardin partagé Chantereigne
+
+https://www.facebook.com/events/27873378135668643
+"""

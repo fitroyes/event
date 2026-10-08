@@ -1,0 +1,65 @@
+[[event]]
+path = "journee-securite-sante-travail"
+name = "Journée internationale de la sécurité et de la santé au travail"
+date = 2026-04-28T11:00:00+02:00
+place = { name = "Devant le MEDEF", addr = "Place Casimir Perier, Troyes" }
+notes = [
+	"Il sera suivi par un barbecue fraternel devant le syndicat des cheminots de Troyes (devant la gare).",
+	"https://www.cgtud10.fr/actualites/c/0/i/96079644/28-avril-rassemblement-11h-devant-le-medef-stop-aux-morts-au-travail",
+]
+
+[[event]]
+path = "1er-mai"
+name = "Manif 1er mai"
+place = { name = "Place Jean-Jaurès", addr = "Place Jean-Jaurès, Troyes" }
+date = 2026-05-01T10:00:00+02:00
+notes = []
+
+[[event]]
+path = "aesh"
+name = "Ecole inclusive: toutes et tous mobilisé·es!"
+place = { name = "Devant le collège Langevin de Ste Savine", addr = "14 Av. Gabriel Thierry, 10300 Sainte-Savine" }
+date = 2026-06-09T17:00:00+02:00
+notes = [
+	"À la suite du premier groupe de travail sur l’avenir des AESH, une large intersyndicale appelle tous les personnels de l’Éducation nationale à se mobiliser le 9 juin. L’objectif: obtenir la création d’un corps de fonctionnaire pour l’ensemble des AESH, seule condition pour une sortie de la précarité. Pour les associer directement à la définition de leur métier, la FSU-SNUipp lance une consultation nationale.",
+	"https://10.snuipp.fr/article/ecole-inclusive-toutes-et-tous-mobilise-es",
+]
+
+[[event]]
+path = "rassemblement_social_ars"
+name = "Rassemblement le 15 septembre à 14h devant l'ARS à Troyes"
+place = { name = "ARS à Troyes", addr = "Cité administrative des Vassaules, 22 rue Grégoire Pierre Herluison, Bat B" }
+date = 2026-09-15T14:00:00+02:00
+notes = [
+	"Pour les salarié·es, pour la population, cela ne peut plus durer\u202F!",
+	"La CGT Santé et Action Sociale appelle à la grève ce mardi 15 septembre 2026. Un rassemblement est prévu à 14h00 devant l'ARS à Troyes (Cité administrative des Vassaules, 22 rue Grégoire Pierre Herluison, Bat B). Ce mouvement national dénonce les conditions de travail\u00A0: manque de moyens, sous-effectifs et dégradation des conditions de travail et salaires de plus en plus insuffisants.",
+	"Il faut des budgets permettant de répondre aux besoins des patients et des usagers. IMMEDIATEMENT\u202F!",
+	"https://www.cgtud10.fr/actualites/c/0/i/98025186/rassemblement-le-15-septembre-14h-devant-l-ars-troyes",
+]
+
+[[event]]
+path = "greve_fonction_publique"
+name = "Le 29 septembre : GREVE ET MANIFESTATION pour les salaires et le service public"
+desc = "Le 30 septembre prochain, le Premier ministre présentera son projet de budget pour 2027. La veille, l'intersyndical de la Fonction publique appelle à se mettre en grève et à manifester pour imposer d'autres choix budgétaires."
+place = { name = "Devant la Préfecture de l'Aube", addr = "Place de la Liberation 10000 Troyes" }
+date = 2026-09-29T13:30:00+02:00
+notes = [
+	"Le 29 septembre, les agent·es de la Fonction publique seront en grève et en manifestation à l'appel de tous les syndicats, pour leurs salaires, leurs conditions de travail et les moyens des services publics\u00A0: pompiers, soignant·es, enseignant·es et celles et ceux qui assurent des missions de services public. Mais cette journée ne concerne pas que les fonctionnaires.",
+	"https://www.cgtud10.fr/actualites/c/0/i/98137899/le-29-septembre-greve-et-manifestation-pour-les-salaires-et-le-service-public",
+	"https://10.snuipp.fr/article/en-greve-pour-nos-salaires-pour-un-autre-budget",
+]
+
+[[event]]
+path = "lyceen_manifestation"
+name = "Manifestation des lycéen·nes"
+desc = "Manifestation et cordon de sécurité pour les lycéen·nes."
+place = { name = "Parking stade songis", addr = "8 Rue Bernard de Clairvaux, 10000 Troyes" }
+date = 2026-10-06T08:00:00+02:00
+notes = [
+	"Les lycéen·nes manifestent demain 6 octobre.",
+	"Nous avons besoin à Troyes de camarades pour protéger les enfants de la police et des casseurs. Notre objectif est d'encadrer, sécuriser et protéger les manifestant·es.",
+	"Un rdv est fixé à 8h00 sur le parking du stade Songis (près du lycée Marie de Champagne).",
+	"La consigne est de porter chasuble et brassard blanc (on en aura sur place).",
+	"https://www.cgtud10.fr/actualites/c/0/i/98273046/article-n-455",
+	"https://www.instagram.com/lombards_on_bloque_tout/",
+]

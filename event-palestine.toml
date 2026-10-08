@@ -1,0 +1,35 @@
+[[event]]
+path = "manifestation-palestine"
+name = "Manifestation en solidarité du peuple palestinien"
+date = 2026-04-28T10:30:00+02:00
+place = { name = "Place Jean-Jaurès", addr = "Place Jean-Jaurès, Troyes" }
+notes = [
+	"Le 30 mars de chaque année est une journée particulière en Palestine et pour tou.te.s les Palestinien.ne.s qu’ils vivent en Palestine, dans les camps de réfugié.e.s ou dans la diaspora dans le monde entier.",
+	"C’est la « journée de la terre » commémorée depuis le 30 mars 1976, jour où la police israélienne a tiré sur des Palestiniens qui manifestaient contre la confiscation de leur terre. Bilan 6 morts, des dizaines de blessés et des centaines de personnes incarcérées.",
+	"Cette journée de mobilisation est le symbole d’un peuple attaché à sa terre.",
+	"Au niveau national un appel à la mobilisation dans les territoires est  impulsé par 90 organisations le 28 mars prochain.",
+	"@Collectif aubois pour la paix",
+	"https://actionpopulaire.fr/groupes/dffe29a7-2fcb-424e-bb3d-b1d2b4623aaf/",
+]
+
+[[event]]
+path = "manifestation-palestine"
+name = "Manifestation en solidarité du peuple palestinien"
+date = 2026-07-04T10:30:00+02:00
+place = { name = "Place Jean-Jaurès", addr = "Place Jean-Jaurès, Troyes" }
+notes = [
+	"Manifestation suivi d'échange, de prise de parole, autour d'un pique-nique partagé",
+	"@Collectif aubois pour la paix",
+	"https://www.facebook.com/mraptroyes/",
+]
+
+[[event]]
+path = "palestine"
+name = "Manifestation pour la paix en Palestine"
+desc = "Manifestation pour la paix en Palestine"
+place = { name = "Place Jean-Jaurès", addr = "Place Jean-Jaurès, Troyes" }
+date = 2026-10-10T10:30:00
+end = 2026-10-10T11:30:00
+notes = [
+	"https://actionpopulaire.fr/evenements/ad900021-8efb-42e9-b534-3bb6b4b8fc54/",
+]

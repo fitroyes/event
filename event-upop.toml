@@ -1,0 +1,58 @@
+[[event]]
+path = "conference-fanny-gallot"
+name = "[REPORTÉ EN SEPTEMBRE] Conférence - Leurs paniques, Nos combats - Par Fanny Gallot"
+place = { name = "Espace Monmousseau", addr = "2 Av. du 8 Mai, 10100 Romilly-sur-Seine" }
+date = 2026-06-25T18:30:00+02:00
+notes = [""]
+
+[[event]]
+path = "paniques_combats_fanny_gallot"
+name = "Leurs paniques, nos combats - Par Fanny Gallot"
+desc = "Conférence et débat avec Fanny Gallot, historienne à l'Université Paris-Est-Créteil et chercheuse en histoire contemporaine comparée."
+place = { name = "Espace Monmousson", addr = "2 Avenue du 8 Mai, 10100 Romilly-sur-Seine" }
+date = 2026-09-24T18:30:00+02:00
+notes = [
+	"Conférence et débat avec Fanny Gallot, historienne à l'Université Paris-Est-Créteil et chercheuse en histoire contemporaine comparée.",
+	"Avec le collectif de lutte contre les extrêmes droites et la librairie associative les passeurs de textes.",
+	"Entrée libre, repas partagé",
+]
+
+# annulé, raison inconno
+# https://upopaube.over-blog.com/2026/09/6ab9feb1-313c.html
+# [[event]]
+# path = "conf_centenaire_ligue"
+# name = "Conférence pour le centenaire de la Ligue de l'enseignement (UPop)"
+# desc = "Une conférence le 29 septembre 2026 pour le centenaire de la Ligue de l'enseignement par Eric FAVEY organisé par l'Université populaire de l'Aube."
+# place = { name = "Auditorium de la maison du patrimoine", addr = "" }
+# date = 2026-09-29T18:30:00+02:00
+# notes = [
+# 	"La ligue de l'enseignement, la république en action. Eric FAVEY.",
+# 	"LE CENTENAIRE DE LA LIGUE",
+# 	"100 ans après sa création, celle, que Léon Gambetta, Président du conseil de l'époque, invitait à devenir la République en action, joue-t-elle encore son rôle\u00A0?",
+# 	"La Ligue de l'enseignement fut créée pour combattre l'ignorance et défendre une République qui ne pouvait survivre sans citoyens éduqués, émancipés et acteurs de leur monde.",
+# 	"Ce combat reposait sur la promotion de la laïcité (loi de 1905), la défense de l'école publique (lois scolaires 1882), et l'avènement de l'éducation populaire (loi de 1901) deuxième jambe de l'engagement éducatif de la nation.",
+# 	"À l'heure ou le mensonge succède à l'ignorance comment peut-elle agir\u00A0?",
+# 	"https://upopaube.over-blog.com/2026/09/la-ligue-de-l-enseignement-la-republique-en-action.html",
+# ]
+
+[[event]]
+path = "france_eternelle_archeologie"
+name = "La france éternelle? une enquête archéologique"
+place = { name = "Auditorium de St Julien les Villas", addr = "3 Rue Jean Jacques Rousseau, 10800 Saint-Julien-les-Villas" }
+date = 2026-09-16T18:30:00+02:00
+notes = [
+	"Nous ouvrons notre Université Populaire avec la conférence de Jean-Paul DEMOULE qui fut supprimée à cause de la canicule.",
+	"Jean-Paul Demoule est l’un des plus grands archéologues français contemporains. Il a interrogé avec rigueur et esprit critique l’idée d’une identité française que certains disent immuable. En analysant 3 millénaires de découvertes archéologiques, il montre que notre histoire est avant tout celle de rencontres, de métissages et de transformations permanentes.",
+	"https://www.facebook.com/photo/?fbid=4464951033821158",
+]
+
+[[event]]
+path = "upop"
+name = "Les «hussard noirs» de la grande guerre"
+desc = "Conférence le 13 octobre 2026 sur les «hussard noirs» de la grande guerre."
+place = { name = "Auditorium de la maison du patrimoine", addr = "3 Rue Jean Jacques Rousseau, 10800 Saint-Julien-les-Villas" }
+date = 2026-10-13T18:30:00+02:00
+notes = """
+Cette prochaine conférence plaira aux âmes sensibles. L'historien Jean-Louis Humbert a découvert des archives exceptionnelles dans lesquelles on rencontre des écoliers généreux et des maîtres héroÏques dans une société bouleversée par la guerre.
+https://www.facebook.com/photo?fbid=4534403480209246&set=a.1388380111478281
+"""

@@ -41,7 +41,7 @@ type Event = {
 	date: Date;
 	end?: Date;
 	place: { name: string; addr: string };
-	notes: string[];
+	notes: string | string[];
 };
 
 await Deno.mkdir("public", { recursive: true });
@@ -55,7 +55,7 @@ const events = new Map<number, Event[]>();
 for await (const { path } of walk(".", { exts: [".toml"], maxDepth: 1 })) {
 	console.log("read", path, "...");
 	const data = TOML.parse(await Deno.readTextFile(path)) as { event: Event[] };
-	for (const event of data.event) {
+	for (const event of data.event ?? []) {
 		const year = event.date.getFullYear();
 		events.set(year, events.get(year) ?? []);
 		events.get(year)?.push(event);
@@ -69,8 +69,9 @@ for await (const { path } of walk(".", { exts: [".toml"], maxDepth: 1 })) {
 }
 
 for (const list of events.values()) {
-	list.sort((a, b) => a.date.valueOf() - b.date.valueOf());
+	list.sort((a, b) => a.path.localeCompare(b.path));
 }
+future_events.sort((a, b) => a.path.localeCompare(b.path));
 
 for (const [year, list] of events.entries()) {
 	await Deno.mkdir(`public/${year}`, { recursive: true });
@@ -178,12 +179,19 @@ await Deno.writeTextFile(
 	),
 );
 
-function notes(lines: string[] = []): HTML.HTML[] {
-	return lines.map((line) =>
-		/^https?:\/\//.test(line)
-			? HTML.html("div", HTML.htmlAttr`a href='${line}'`(line))
-			: HTML.html("p", line)
-	);
+function notes(lines: string[] | string = []): HTML.HTML[] {
+	if (typeof lines === "string") {
+		lines = lines.split("\n");
+	}
+	while (lines.length && !lines[lines.length - 1]) {
+		lines.pop();
+	}
+	return lines
+		.map((line) =>
+			/^https?:\/\//.test(line)
+				? HTML.html("div", HTML.htmlAttr`a href='${line}'`(line))
+				: HTML.html("p", line)
+		);
 }
 
 function print_event(event: Event, notPage: boolean): HTML.HTML {
