@@ -65,3 +65,15 @@ Rosalina MABANZAILA, Jardin partagé Chantereigne
 
 https://www.facebook.com/events/27873378135668643
 """
+
+[[event]]
+path = "cantine_solidaire"
+name = "Ciné-débat + Cantine solidaire - (Collectif Aubois pour une sécurité sociale de l'alimentation)"
+desc = "Matinée autour des liens entre alimentation, restauration et transformation sociale avec projection d’un film et cantine solidaire."
+place = { name = "Cinéma UTOPIA", addr = "11 Rue du Moulinet 10150 Pont-Sainte-Marie" }
+date = 2026-10-18T10:00:00+02:00
+notes = """Dans le cadre du festival alimenterre le Collectif aubois pour une Sécurité sociale de l’alimentation vous invite à une matinée autour des liens entre alimentation, restauration et transformation sociale.
+À travers la projection d’un film consacré à sept initiatives de restauration durable, nous partirons à la rencontre de cuisinières et cuisiniers qui expérimentent d’autres façons de produire, cuisiner et partager nos repas, avec des impacts qui dépassent largement l’assiette.
+La projection sera suivie d’un temps d’échange et de débat, puis d’une cantine solidaire proposée par Kantinetik (association Aurore) pour prolonger les discussions autour d’un repas convivial.
+https://www.facebook.com/events/929150013317371/
+"""
