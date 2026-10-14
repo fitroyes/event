@@ -205,10 +205,20 @@ path = "fini_de_rire"
 name = "Fini de rire"
 desc = "Projection et débat du film fini de rire"
 place = { name = "Cinéma UTOPIA", addr = "11 Rue du Moulinet 10150 Pont-Sainte-Marie" }
-date = 2026-10-08T20:00:00
+date = 2026-10-08T20:00:00+02:00
 notes = [
 	"Attention, réservez vos palces en avance",
 	"https://actionpopulaire.fr/evenements/11618499-512b-4c8b-b644-b57c84a52e6a/",
 	"https://www.udcgt10.fr/2026/10/manifestation-pour-la-paix-5/",
 	"https://site.ldh-france.org/troyes-et-aube/a-ne-pas-manquer-demain-soir/",
 ]
+
+[[event]]
+path = "gilet_jaune"
+name = "Manifestation 17 octobre 2026"
+desc = "Manifestation 17 octobre 14h, Place Jean Jaurès, 10 000 Troyes"
+place = { name = "Place Jean-Jaurès", addr = "Place Jean-Jaurès, Troyes" }
+date = 2026-10-17T14:00:00+02:00
+notes = """ON NE PEUX PLUS VIVRE! QU’ILS DÉGAGENT TOUS!
+
+Manifestation 17 octobre 14h, Place Jean Jaurès, 10 000 Troyes"""
