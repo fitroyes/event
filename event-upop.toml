@@ -56,3 +56,15 @@ notes = """
 Cette prochaine conférence plaira aux âmes sensibles. L'historien Jean-Louis Humbert a découvert des archives exceptionnelles dans lesquelles on rencontre des écoliers généreux et des maîtres héroÏques dans une société bouleversée par la guerre.
 https://www.facebook.com/photo?fbid=4534403480209246&set=a.1388380111478281
 """
+
+[[event]]
+path = "upop"
+name = "La physique face au monde\u202F: mystères, défis et espoirs avec Alfonso San Miguel"
+desc = "Conférence le mardi 3 novembre 2026 sur la physique quantique."
+place = { name = "Auditorium de la maison du patrimoine", addr = "3 Rue Jean Jacques Rousseau, 10800 Saint-Julien-les-Villas" }
+date = 2026-11-03T18:30:00+02:00
+notes = """
+Il parait que la physique quantique, celle de l'infiniment petit, va permettre à l'humain de prendre le pouvoir (sur dieu bien sûr)... Attention les dégâts!!!
+Une conférence très sérieuse mais accessible.
+https://www.facebook.com/photo?fbid=4550256695290591&set=a.1388380111478281
+"""
