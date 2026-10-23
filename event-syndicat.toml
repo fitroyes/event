@@ -63,3 +63,16 @@ notes = [
 	"https://www.cgtud10.fr/actualites/c/0/i/98273046/article-n-455",
 	"https://www.instagram.com/lombards_on_bloque_tout/",
 ]
+
+[[event]]
+path = "manif_syndical"
+name = "Manifestation du 5 novembre 2026"
+desc = "5 novembre : appel à la mobilisation pour les salaires, les services publics, l’emploi et l’industrie (Intersyndicale interprofessionnelle)"
+place = { name = "Devant la Préfecture de l'Aube", addr = "Place de la Liberation 10000 Troyes" }
+date = 2026-11-05T10:30:00+01:00
+notes = [
+	"Rendez-vous le JEUDI 5 NOVEMBRE A 10 HEURES 30 devant la Préfecture pour une manifestation qui se terminera à la Maison Des Syndicats.",
+	"Parcours\u00A0: Départ Préfecture, Place de la Libération, Quai Dampierre, Bld Gambetta, Espace Argence, Rue de la République, Rue Emile Zola, Rue Turenne et arrivée Maison des Syndicats.",
+	"https://udfo10.org/",
+	"https://www.cgtetat.fr/IMG/pdf/appel_a_la_mobilisation_salaires_et_services_publics.pdf",
+]
