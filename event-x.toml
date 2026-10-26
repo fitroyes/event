@@ -222,3 +222,17 @@ date = 2026-10-17T14:00:00+02:00
 notes = """ON NE PEUX PLUS VIVRE! QU’ILS DÉGAGENT TOUS!
 
 Manifestation 17 octobre 14h, Place Jean Jaurès, 10 000 Troyes"""
+
+[[event]]
+path = "rassemblement_contre_racisme"
+name = "Rassemblement contre le racisme"
+desc = "Rassemblement en hommage aux victimes du terrorisme d'extrême droite."
+place = { name = "Devant l'hôtel de ville", addr = "Place Alexandre Israël, 10000 Troyes" }
+date = 2026-10-26T18:30:00+01:00
+notes = """
+Rassemblement en hommage aux victimes du terrorisme d'extrême droite.
+Face à l'horreur de l'attentat raciste perpétré par l'extrême droite à Trappes, réunissons nous en hommage aux victimes et dénonçons la véritable nature de l'extrême droite. Rappelons que le racisme ne peut être réduit à une haine irrationnelle, elle est un cadre d'analyse et d'organisation de la société, c'est un projet politique. Et dénonçons en premier lieu ce gouvernement qui porte ce projet, qui incite, valide et banalise cette vision raciale de la société portée l'extrème droite.
+Exigeons la rupture par rapport à cet ordre inégalitaire qui nourrit et attise l'horreur.
+Hommage et jutice pour toutes les victimes
+https://actionpopulaire.fr/evenements/eb60b8d6-c376-4ec0-b8e3-845dbe6548e3/
+"""
