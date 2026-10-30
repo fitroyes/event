@@ -65,9 +65,19 @@ notes = [
 ]
 
 [[event]]
+path = "manif"
+name = "Acte III"
+desc = "Acte III Manifestation à Troyes"
+place = { name = "Devant la Préfecture de l'Aube", addr = "Place de la Liberation 10000 Troyes" }
+date = 2026-10-31T14:00:00+01:00
+notes = """
+https://www.instagram.com/lombards_on_bloque_tout/p/DfE1XwTCLQP/
+"""
+
+[[event]]
 path = "manif_syndical"
 name = "Manifestation du 5 novembre 2026"
-desc = "5 novembre : appel à la mobilisation pour les salaires, les services publics, l’emploi et l’industrie (Intersyndicale interprofessionnelle)"
+desc = "5 novembre\u00A0: appel à la mobilisation pour les salaires, les services publics, l’emploi et l’industrie (Intersyndicale interprofessionnelle)"
 place = { name = "Devant la Préfecture de l'Aube", addr = "Place de la Liberation 10000 Troyes" }
 date = 2026-11-05T10:30:00+01:00
 notes = [
