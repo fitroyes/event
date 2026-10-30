@@ -236,3 +236,30 @@ Exigeons la rupture par rapport à cet ordre inégalitaire qui nourrit et attise
 Hommage et jutice pour toutes les victimes
 https://actionpopulaire.fr/evenements/eb60b8d6-c376-4ec0-b8e3-845dbe6548e3/
 """
+
+[[event]]
+path = "lfi_formation_numerique"
+name = "Formation aux enjeux du numérique"
+desc = "Formation aux enjeux du numérique organisée par LFI, tout publique"
+place = { name = "Petit Louvre", addr = "33 Av. Marie de Champagne, 10000 Troyes" }
+date = 2026-10-31T14:00:00+01:00
+notes = """
+Formation au enjeux du numérique organisée par LFI, tout publique.
+
+* 1er partie\u00A0: présentations
+- Comprendre le fonctionnement du réseau internet et ses acteurs,
+- Où vont nos données personnelles? Qu'elle hygiène numérique adopter\u00A0?
+- Solutions éthiques\u00A0: présentation du logiciel libre
+
+* 2e partie\u00A0: install party\u00A0!
+- Création de site web leger (statique)
+- Présentation et installation d'applications libres (android et iOS)
+- Présentation et installation d'OS libres (linux)
+- Présentation de services libres en lignes (ex\u00A0: collectif chatons)
+
+Apporter votre ordinateur portable!
+
+Merci de vous inscrire sur action populaire ou via le formulaire\u00A0:
+https://actionpopulaire.fr/evenements/57fdb70f-1fdc-4216-84de-dbec4fed53f2/
+
+"""
